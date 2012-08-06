@@ -1,0 +1,45 @@
+<!doctype html>
+<head>
+<meta charset="utf-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<title>CodeCollision</title>
+<meta name="description" content="CodeCollision - web development, django, flash, actionscript, python and game development" />
+<meta name="keywords" content="flash, actionscript, actionscript 3.0, as3, web design, python, django, jQuery" />
+<meta name="author" content="Michael Martin">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="/favicon.ico">
+        
+<script type="text/javascript" src="scripts/swfobject.js"></script>
+<script type="text/javascript" src="scripts/swfaddress.js"></script>
+<script type="text/javascript" src="scripts/swffit.js"></script>
+        
+<script type="text/javascript">       
+	if (swfobject.hasFlashPlayerVersion("9.0.0")) {
+	} else {
+		window.location="http://www.codecollision.com";
+	}
+					
+	var flashvars = {};
+	var attributes = {id: "codecollision", align: "left"};
+	var params = {menu: "false",scale: "noscale",bgcolor: "#08151f",allowscriptaccess: "always",menu: "false",seamlesstabbing: "false"};	
+	swffit.showScrollV(); 
+	swfobject.embedSWF("CodeCollision.swf", "content", "760", "800", "9.0.0", "expressInstall.swf", flashvars, params, attributes);
+	
+	function scroll(t, y) {if (t == "top") {self.scrollTo(0, 0)} else if (t == "bottom") {self.scrollTo(0, document.getElementById("codecollision").height)} else if (t == "custom"){self.scrollTo(0, y)}}
+
+	var _gaq=[["_setAccount","UA-3940107-4"],["_trackPageview"]];
+	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+	g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
+	s.parentNode.insertBefore(g,s)}(document,"script"));
+</script>
+        
+<style type="text/css"> body {margin: 0px;background-color: #08151f;} </style>
+        
+</head>
+<body>
+<div id="content"></div>
+</body>
+</html>
