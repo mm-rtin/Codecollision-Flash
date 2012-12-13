@@ -1,4 +1,4 @@
 Codecollision-Flash
 ===================
 
-Codecollision.com - Flash version
+Codecollision.com - Flash
